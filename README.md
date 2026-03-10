@@ -10,7 +10,7 @@ A full-stack food ordering platform built with the MERN stack.
 - Tailwind CSS
 - Context API + useReducer
 
-## ✨ Features
+## ✨ Features are
 - User authentication
 - Browse food items
 - Add to cart
