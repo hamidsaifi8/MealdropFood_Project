@@ -1,7 +1,7 @@
 import React from "react";
 import { MealdropData } from "../data/data";
 
-const Restaurants = () => {
+const RestaurantsList = () => {
   return (
     <>
       <div className="restaurant-container py-4">
@@ -34,4 +34,4 @@ const Restaurants = () => {
   );
 };
 
-export default Restaurants;
+export default RestaurantsList;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Slider from "../Components/Slider";
-import Restaurants from "../Components/Restaurants";
+import RestaurantsList from "./RestaurantsList";
 import Footer from "../Components/Footer";
 import Reviews from "../Components/Reviews";
 import ExploreMenu from "../Components/ExploreMenu";
@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
       <Slider />
       <ExploreMenu category ={category} setCategory={setCategory}/>
-      <Restaurants />
+      <RestaurantsList category={category} />
       <Reviews />
       <Footer />
     </>
